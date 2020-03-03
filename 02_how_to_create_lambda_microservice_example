@@ -1,0 +1,17 @@
+Lambda
+- Functions
+  - Create function
+    - Use a blueprint
+      - microservice-http-endpoint-python
+        - configure
+- Basic information
+  - Function name > python_microservice_http_endpoint
+  - Execution role
+    - create a new role from AWS policy templates
+    - Role name > lambda-microservice-role
+- API Gateway trigger
+  - API
+    - Create a new API
+  - Choose a template
+    - HTTP API
+- Create function
