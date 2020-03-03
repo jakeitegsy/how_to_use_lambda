@@ -1,0 +1,22 @@
+AWS
+- Lambda
+  - Create function
+    - Use a blueprint
+      - Blueprints > Filter by tags and attributes ...
+        - hello-world-python
+          - Select
+            - Configure
+  - Basic information
+    - Function name > python_hello_world
+    - Execution role > Create a new role with basic Lambda permission
+  - Create function
+  - Test
+    - Name > python hello world test
+      {
+	"key1": "value1"
+        "key2": "value2"
+        "key3": "value3"
+  	"keyN": "valueN"
+	"name": "MyName"
+      }
+
