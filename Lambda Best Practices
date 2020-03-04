@@ -1,0 +1,21 @@
+Lambda Best Practices
+- make handler a unit-testable function
+- reusability
+- decouple
+- environment variables
+- package dependencies with deployment package
+- minimize package size to runtime necessities
+- no recursion
+
+Function Configuration
+- performance testing - max memory used
+- load testing - how long does the function run
+- restrict permissions
+- what are the lambda limits
+- delete functions not in use
+- SQS visibility timeout >= function execution time
+
+Alarming & Metrics
+- how to work with AWS Lambda Function Metrics & CloudWatch Alarms
+- Logging library + catch app errors
+

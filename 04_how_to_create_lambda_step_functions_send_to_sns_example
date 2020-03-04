@@ -1,0 +1,13 @@
+- lambda
+  - use a blueprint
+    - Blueprints
+      - step-functions-send-to-sns
+        - Configure
+    - Basic information
+      - Function name > step_functions_send_to_sns
+        - Execution role
+          - Create a new role from AWS policy templates
+            - Role name
+              - lambda_step_functions_role
+  - Create function
+ 

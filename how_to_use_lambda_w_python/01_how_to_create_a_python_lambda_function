@@ -1,0 +1,18 @@
+Lambda
+- Create function
+  - Name > $FUNCTION_NAME
+  - Runtime > Python 3.8
+  - Permissions
+    - Choose or create an execution role
+      - Execution role
+        - Use an existing role
+          - Existing role > lambda_role
+  - Create function
+    - Function code
+      import json
+
+      def $HANDLER_NAME(event, context):
+
+      	<event.attributes>
+      	<statements>
+      	return $VALUE
