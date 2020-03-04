@@ -1,0 +1,14 @@
+IAM
+- Roles
+  - Create Role
+    - Select type of trusted entity
+      - AWS service
+    - Choose a use case
+      - Lambda
+  - Next permissions
+    - Filter policies
+      - AWSLambdaBasicExecutionRole
+        - next tags
+          - name > lambda_role
+  - Next review
+      - role name > lambda_role
